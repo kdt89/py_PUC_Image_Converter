@@ -1,4 +1,4 @@
-from view.ui.Main_ui import Ui_Main
+from view.qt_ui.main_ui import Ui_MainWindow
 from PyQt6.QtWidgets import QMainWindow
 
 
@@ -21,5 +21,5 @@ class WidgetMain(QMainWindow):
     def __init__(self):
         super(WidgetMain, self).__init__()
         # GUI Main form
-        self.ui = Ui_Main()
+        self.ui = Ui_MainWindow()
         self.ui.setupUi(self)

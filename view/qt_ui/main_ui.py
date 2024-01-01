@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'd:\PJT\PY\py_PUC_Image_Converter\view\qt_ui\main.ui'
+# Form implementation generated from reading ui file 'd:\PJT\PY\py PUC_Image_Converter\view\qt_ui\main.ui'
 #
 # Created by: PyQt6 UI code generator 6.6.1
 #
@@ -109,4 +109,4 @@ class Ui_MainWindow(object):
         self.cbBox_outputImageFormatSelector.setItemText(1, _translate("MainWindow", "PNG"))
         self.cbBox_outputImageFormatSelector.setItemText(2, _translate("MainWindow", "BMP"))
         self.lbl_ImageFolder.setText(_translate("MainWindow", "Image Folder"))
-        self.btn_folderBrowser.setText(_translate("MainWindow", "Browse Folder"))
+        self.btn_folderBrowser.setText(_translate("MainWindow", "Browse"))

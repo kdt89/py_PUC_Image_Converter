@@ -212,7 +212,7 @@
           </size>
          </property>
          <property name="text">
-          <string>Browse Folder</string>
+          <string>Browse</string>
          </property>
         </widget>
        </item>
