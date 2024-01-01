@@ -1,18 +1,24 @@
 import configparser
 from datetime import datetime
 import os
-import subprocess
-import subfunc
+from os import path
 
 
 # Read configuration from INI file
 config = configparser.ConfigParser()
 config.read("option.ini")
 
+# Get the current working dir
+cwd = path.abspath(path.dirname(__file__))
+
 # Check if output folder exists, create if not
-output_dir = os.path.join(os.getcwd(), "Output")
+output_dir = os.path.join(cwd, "Output")
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
+
+# Get the path to Input data (folder contains images to be converted to JPG)
+
+
 
 # # Loop through all subfolders in the specified path
 # for subfolder in os.listdir(search_dirs):
